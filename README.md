@@ -1,6 +1,7 @@
 # Eyecloud-ECFG Introduction
 ![image](https://github.com/user-attachments/assets/6684fd68-913f-4d1e-8492-bde1fe701594)
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/fb13607a-af5d-4ebd-b975-600b9adaf6d8)
+
 
 
 As frame grabbers (ECFG series) play a role in capturing and digitizing video frames from analog or digital sources,  the software system-UGrab is designed to streamline this process. 

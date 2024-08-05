@@ -1,0 +1,36 @@
+[19:00:11] :[SHOW]  - -------------**********---------------
+[19:00:11] :[SHOW]  - Sdk Version:1.3.24,Jun 13 2024,18:52:18
+[19:00:11] :[SHOW]  - -------------**********---------------
+[19:00:11] :[INFO]  - ==============USB DEV LIST==============
+[19:00:11] :[INFO]  - 2109:2822 (bus 1, device 53), BcdUSB:210
+[19:00:11] :[INFO]  - 04F2:B604 (bus 1, device 5), BcdUSB:201
+[19:00:11] :[INFO]  - 0B95:772B (bus 1, device 54), BcdUSB:200
+[19:00:11] :[INFO]  - 093A:2510 (bus 1, device 51), BcdUSB:110
+[19:00:11] :[INFO]  - 8086:9D2F (bus 1, device 0), BcdUSB:310
+[19:00:11] :[INFO]  - 03E7:2485 (bus 1, device 43), BcdUSB:200
+[19:00:11] :[INFO]  - 0BDA:C024 (bus 1, device 4), BcdUSB:110
+[19:00:11] :[INFO]  - 1A86:7523 (bus 1, device 56), BcdUSB:110
+[19:00:11] :[INFO]  - 2109:0822 (bus 1, device 52), BcdUSB:320
+[19:00:11] :[INFO]  - ========================================
+[19:00:12] :[SHOW]  - Boot Successfully.
+[19:00:15] :[INFO]  - Get the right device 0000028CFBF5EA30 then libusb_claim_interface!ret=0
+[19:00:15] :[INFO]  - |================================
+[19:00:15] :[INFO]  - |Index      : 0
+[19:00:15] :[INFO]  - |SN         : 000000000051C394
+[19:00:15] :[INFO]  - |ID         : 03e7:f63d
+[19:00:15] :[INFO]  - |Product    : EC Frame Grabber
+[19:00:15] :[INFO]  - |USB Version: 32
+[19:00:15] :[INFO]  - |Bus        : 1
+[19:00:15] :[INFO]  - |Port       : 16-2
+[19:00:15] :[INFO]  - |================================
+[19:00:15] :[SHOW]  - used usb num :1
+[19:00:15] :[SHOW]  - find 1 Myradx, pid,vid:0xf63d, 0x3e7
+[19:00:16] :[SHOW]  - Firmware version:ECFG_FW_2.0.1.16.1
+
+[19:00:16] :[SHOW]  - ===========Dev 00 EERPOM Info===========
+[19:00:16] :[SHOW]  - Dev Id            : 0
+[19:00:16] :[SHOW]  - Grp_sn            : 2405C394
+[19:00:16] :[SHOW]  - SerialNumber      : 000000000051C394
+[19:00:16] :[SHOW]  - Device Model      : S1-96792
+[19:00:16] :[SHOW]  - Vol_calib Version : 0x1010104
+[19:00:16] :[SHOW]  - ========================================

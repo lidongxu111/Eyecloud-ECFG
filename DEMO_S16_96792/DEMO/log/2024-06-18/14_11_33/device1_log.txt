@@ -1,0 +1,140 @@
+[0:00:00:001]: FIRMWARE_VERSION: ECFG_FW_2.0.1.16.1, Jun 13 2024,17:38:47
+[0:00:00:001]: Boot mode: USB, 0x16
+[0:00:00:001]: ====ENABLE WATCHDOG====1
+[0:00:00:011]: PLL0: 700000 AUX_IO0: 24000 AUX_IO1: 24000 MCFG: 24000 MECFG: 24000
+[0:00:00:011]: Som Init success, ret 0
+[0:00:00:021]: chip ID :0000000000096494
+[0:00:00:023]: wait sem endpoint_index
+[0:00:00:129]: wait sem endpoint_index status 0 
+[0:00:03:224]: Product: (Sx_96792A)
+[0:00:03:250]: Som version: CM004A
+[0:00:03:251]: Sx Hw version: 2
+[0:00:03:477]: grp sn: 2405E893(1)
+[0:00:03:491]: === calib ver:0x1010104===
+[0:00:03:491]: sys vol 1.000000, 0.000000
+[0:00:03:491]: cam vol 1.000000, 0.000000
+[0:00:03:491]: cam cur 0.928800, -0.273600
+[0:00:03:491]: led vol 1.000000, 0.000000
+[0:00:03:491]: led cur 0.900600, -3.439200
+[0:00:03:491]: ==========================
+[0:00:03:492]: Sx board init end
+[0:00:03:492]: fps_proc_Init ret:0
+[14:11:38:147]: [Port0]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:147]: [Port1]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:147]: [Port2]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:147]: [Port3]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:147]: ==============================
+[14:11:38:223]: [USB] DEV_CTRL_POC_VOL_SET 16000
+[14:11:38:410]: [Coarse]dst vol 16000 mv, act vol 15930 mv(cnt 0)
+[14:11:38:498]: [ Fine ]dst vol 16000 mv, act vol 15986 mv(cnt 1), vol_th:160 mv
+[14:11:38:498]: [USB]set poc vol 16000 mv, ret: 2(2:S,4:F)
+[14:11:39:162]: [USB] DEV_CTRL_POC_POWER_SET 0
+[14:11:39:163]: [USB]poc 0 open success, state 2
+[14:11:39:179]: [USB] DEV_CTRL_POC_POWER_SET 1
+[14:11:39:180]: [USB]poc 1 open success, state 2
+[14:11:39:194]: [USB] DEV_CTRL_POC_POWER_SET 2
+[14:11:39:195]: [USB]poc 2 open success, state 2
+[14:11:39:209]: [USB] DEV_CTRL_POC_POWER_SET 3
+[14:11:39:211]: [USB]poc 3 open success, state 2
+[14:11:39:358]: @@@@ local 0 @@@@ [1] config start
+[14:11:39:583]: @@@@ local 0 @@@@ [1] recv cmds num:46, CRC1:0xffffcf78, size:2944
+[14:11:39:600]: #### mipi 0 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:600]: #### mipi 0 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:600]: #### mipi 0 #### ***2. thread has exited, wait_cn:0
+[14:11:39:600]: #### mipi 0 #### ***3. waiting for deserializer connect
+[14:11:39:605]: #### mipi 0 #### create ret: 0!(cnt 0)
+
+[14:11:39:605]: #### mipi 1 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:605]: #### mipi 1 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:605]: #### mipi 1 #### ***2. thread has exited, wait_cn:0
+[14:11:39:605]: #### mipi 1 #### ***3. waiting for deserializer connect
+[14:11:39:610]: #### mipi 1 #### create ret: 0!(cnt 1)
+
+[14:11:39:688]: @@@@ local 0 @@@@ [1] end ***cnt:40** T:105 ms, CRC2:0xffffcf78, size:2944
+[14:11:39:688]: @@@@ local 0 @@@@ [1] config exited, ret: 2
+
+[14:11:39:730]: @@@@ local 1 @@@@ [2] config start
+[14:11:39:865]: @@@@ local 1 @@@@ [2] recv cmds num:46, CRC1:0xffffcf28, size:2944
+[14:11:39:882]: #### mipi 2 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:882]: #### mipi 2 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:882]: #### mipi 2 #### ***2. thread has exited, wait_cn:0
+[14:11:39:882]: #### mipi 2 #### ***3. waiting for deserializer connect
+[14:11:39:887]: #### mipi 2 #### create ret: 0!(cnt 2)
+
+[14:11:39:887]: #### mipi 3 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:887]: #### mipi 3 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:887]: #### mipi 3 #### ***2. thread has exited, wait_cn:0
+[14:11:39:887]: #### mipi 3 #### ***3. waiting for deserializer connect
+[14:11:39:892]: #### mipi 3 #### create ret: 0!(cnt 3)
+
+[14:11:39:970]: @@@@ local 1 @@@@ [2] end ***cnt:40** T:105 ms, CRC2:0xffffcf28, size:2944
+[14:11:39:970]: @@@@ local 1 @@@@ [2] config exited, ret: 2
+
+[14:11:40:593]: @@@@ remote 0 @@@@ [3] config start
+[14:11:40:727]: @@@@ remote 0 @@@@ [3] recv cmds num:13121, CRC1:0xff5b8910, size:839744
+[14:11:40:928]: i2c [0x100, 0x40, 0x1], error ret: -10
+[14:11:40:928]: For debug ****************
+[14:11:40:928]: FG_I2C: bus:0x100 addr 0x28 reg 0x10 size 1 data 0x1 0x0
+[14:11:40:928]: FG_I2C: bus:0x100 addr 0x40 reg 0x1 size 1 data 0xc 0x0
+[14:11:40:928]: fgcmds:2, error********** ret: -10
+
+
+[14:11:40:928]: **************************
+[14:11:40:928]: @@@@ remote 0 @@@@ [3] config exited, ret: 4
+
+[14:11:40:928]: #####cam ECFG_DISCONNECTED 0
+[14:11:40:928]: $$$$$$$$$$$$$$$$mipi_receiver 0 ----mipi_exit_end
+
+
+
+[14:11:41:625]: @@@@ remote 1 @@@@ [4] config start
+[14:11:41:762]: @@@@ remote 1 @@@@ [4] recv cmds num:13059, CRC1:0xff5bc8d2, size:835776
+[14:11:41:762]: i2c [0x100, 0x1c, 0x400], error ret: -10
+[14:11:41:762]: For debug ****************
+[14:11:41:762]: FG_I2C: bus:0x100 addr 0x1c reg 0x400 size 1 data 0x18 0x0
+[14:11:41:762]: FG_I2C: bus:0x100 addr 0x1c reg 0x400 size 1 data 0x18 0x0
+[14:11:41:762]: fgcmds:2, error********** ret: -10
+
+
+[14:11:41:762]: **************************
+[14:11:41:762]: @@@@ remote 1 @@@@ [4] config exited, ret: 4
+
+[14:11:41:762]: #####cam ECFG_DISCONNECTED 1
+[14:11:41:762]: $$$$$$$$$$$$$$$$mipi_receiver 1 ----mipi_exit_end
+
+
+
+[14:11:42:491]: @@@@ remote 2 @@@@ [5] config start
+[14:11:42:632]: @@@@ remote 2 @@@@ [5] recv cmds num:13121, CRC1:0xff9430f6, size:839744
+[14:11:42:833]: i2c [0x102, 0x40, 0x1], error ret: -10
+[14:11:42:833]: For debug ****************
+[14:11:42:833]: FG_I2C: bus:0x102 addr 0x28 reg 0x10 size 1 data 0x1 0x0
+[14:11:42:833]: FG_I2C: bus:0x102 addr 0x40 reg 0x1 size 1 data 0xc 0x0
+[14:11:42:833]: fgcmds:2, error********** ret: -10
+
+
+[14:11:42:833]: **************************
+[14:11:42:833]: @@@@ remote 2 @@@@ [5] config exited, ret: 4
+
+[14:11:42:833]: #####cam ECFG_DISCONNECTED 2
+[14:11:42:833]: $$$$$$$$$$$$$$$$mipi_receiver 2 ----mipi_exit_end
+
+
+
+[14:11:43:543]: @@@@ remote 3 @@@@ [6] config start
+[14:11:43:699]: @@@@ remote 3 @@@@ [6] recv cmds num:13059, CRC1:0xff9449f6, size:835776
+[14:11:43:699]: i2c [0x102, 0x1c, 0x400], error ret: -10
+[14:11:43:699]: For debug ****************
+[14:11:43:699]: FG_I2C: bus:0x102 addr 0x1c reg 0x400 size 1 data 0x18 0x0
+[14:11:43:699]: FG_I2C: bus:0x102 addr 0x1c reg 0x400 size 1 data 0x18 0x0
+[14:11:43:699]: fgcmds:2, error********** ret: -10
+
+
+[14:11:43:699]: **************************
+[14:11:43:699]: @@@@ remote 3 @@@@ [6] config exited, ret: 4
+
+[14:11:43:699]: #####cam ECFG_DISCONNECTED 3
+[14:11:43:699]: $$$$$$$$$$$$$$$$mipi_receiver 3 ----mipi_exit_end
+
+
+

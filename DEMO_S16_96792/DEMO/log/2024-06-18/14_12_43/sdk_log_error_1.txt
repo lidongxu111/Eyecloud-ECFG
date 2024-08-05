@@ -1,0 +1,12 @@
+[14:13:00] :[ERROR] - Device:0 Module: 5 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module: 6 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module: 7 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module: 8 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module: 9 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:10 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:11 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:12 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:13 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:14 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:15 Configuration fail
+[14:13:00] :[ERROR] - Device:0 Module:16 Configuration fail

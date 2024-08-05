@@ -1,0 +1,71 @@
+{
+	"voltage": 9000,
+	"i2c-map": {
+		"slave0": {
+			"alias": "ser",
+			"physical-addr": [
+				"0x62"
+			],
+			"virtual-addr": [
+				"0xFF",
+				"0xFF"
+			],
+			"type": "16_8"
+		},
+		"slave1": {
+			"alias": "sen",
+			"physical-addr": [
+				"0x30"
+			],
+			"virtual-addr": [
+				"0xFF",
+				"0xFF"
+			],
+			"type": "16_8"
+		}
+	},
+	"MIPI-DPHY": {
+		"RX0": {
+			"enabled": 1,
+			"width": 3840,
+			"height": 2160,
+			"fps": 30,
+			"bit_depth": 10,
+			"nlane": 2,
+			"lane_speed": 2100,
+			"unpacked": 1,
+			"buffer_num": 6,
+			"vc_num": 1,
+			"lsc": "0x1000",
+			"Bayer" : "BGGR",
+			"port": [
+				-1
+			]
+		}
+	},
+	"program": [
+		"tips, max96792A init",
+		"i2c,des,0x0003,0x40",
+		"i2c,des,0x0010,0x31",
+		"sleep, 100000",
+		"i2c,des,0x0001,0x02",
+		"i2c,des,0x0003,0x42",
+		"i2c,des,0x0004,0x02",
+		"i2c,des,0x0012,0x14",
+		"i2c,des,0x0313,0x00",
+		"i2c,des,0x0320,0x35",
+		"i2c,des,0x044a,0x50",
+		"i2c,des,0x044b,0x07",
+		"i2c,des,0x046d,0x15",
+		"i2c,des,0x044d,0x2b",
+		"i2c,des,0x044e,0x2b",
+		"i2c,des,0x044f,0x00",
+		"i2c,des,0x0450,0x00",
+		"i2c,des,0x0451,0x01",
+		"i2c,des,0x0452,0x01",
+		"i2c,des,0x0100,0x23",
+		"i2c,des,0x0112,0x23",
+		"i2c,des,0x0124,0x23",
+		"i2c,des,0x0136,0x23"
+	]
+}

@@ -1,0 +1,201 @@
+[0:00:00:001]: FIRMWARE_VERSION: ECFG_FW_2.0.1.16.1, Jun 13 2024,17:38:47
+[0:00:00:001]: Boot mode: USB, 0x16
+[0:00:00:001]: ====ENABLE WATCHDOG====1
+[0:00:00:011]: PLL0: 700000 AUX_IO0: 24000 AUX_IO1: 24000 MCFG: 24000 MECFG: 24000
+[0:00:00:011]: Som Init success, ret 0
+[0:00:00:021]: chip ID :0000000000C8E893
+[0:00:00:023]: wait sem endpoint_index
+[0:00:00:140]: wait sem endpoint_index status 0 
+[0:00:03:024]: Product: (Sx_96792A)
+[0:00:03:050]: Som version: CM004A
+[0:00:03:051]: Sx Hw version: 2
+[0:00:03:277]: grp sn: 2405E893(0)
+[0:00:03:291]: === calib ver:0x1010104===
+[0:00:03:291]: sys vol 1.000000, 0.000000
+[0:00:03:291]: cam vol 1.000000, 0.000000
+[0:00:03:291]: cam cur 0.942400, -3.878700
+[0:00:03:291]: led vol 1.000000, 0.000000
+[0:00:03:291]: led cur 0.913800, -0.985200
+[0:00:03:291]: ==========================
+[0:00:03:292]: Sx board init end
+[0:00:03:292]: fps_proc_Init ret:0
+[14:11:38:001]: [USB] DEV_CTRL_POC_VOL_SET 16000
+[14:11:38:188]: [Coarse]dst vol 16000 mv, act vol 15995 mv(cnt 0)
+[14:11:38:188]: [ Fine ]dst vol 16000 mv, act vol 15995 mv(cnt 0), vol_th:160 mv
+[14:11:38:188]: [USB]set poc vol 16000 mv, ret: 2(2:S,4:F)
+[14:11:38:198]: [Port0]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:198]: [Port1]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:198]: [Port2]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:198]: [Port3]: cam 00000(000) led 00000(000) lost:0 temp:0x0
+[14:11:38:198]: ==============================
+[14:11:39:099]: [USB] DEV_CTRL_POC_POWER_SET 0
+[14:11:39:100]: [USB]poc 0 open success, state 2
+[14:11:39:115]: [USB] DEV_CTRL_POC_POWER_SET 1
+[14:11:39:116]: [USB]poc 1 open success, state 2
+[14:11:39:132]: [USB] DEV_CTRL_POC_POWER_SET 2
+[14:11:39:133]: [USB]poc 2 open success, state 2
+[14:11:39:147]: [USB] DEV_CTRL_POC_POWER_SET 3
+[14:11:39:148]: [USB]poc 3 open success, state 2
+[14:11:39:357]: @@@@ local 0 @@@@ [1] config start
+[14:11:39:489]: @@@@ local 0 @@@@ [1] recv cmds num:46, CRC1:0xffffcf78, size:2944
+[14:11:39:506]: #### mipi 0 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:506]: #### mipi 0 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:506]: #### mipi 0 #### ***2. thread has exited, wait_cn:0
+[14:11:39:506]: #### mipi 0 #### ***3. waiting for deserializer connect
+[14:11:39:511]: #### mipi 0 #### create ret: 0!(cnt 0)
+
+[14:11:39:511]: #### mipi 1 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:511]: #### mipi 1 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:511]: #### mipi 1 #### ***2. thread has exited, wait_cn:0
+[14:11:39:511]: #### mipi 1 #### ***3. waiting for deserializer connect
+[14:11:39:516]: #### mipi 1 #### create ret: 0!(cnt 1)
+
+[14:11:39:597]: @@@@ local 0 @@@@ [1] end ***cnt:40** T:108 ms, CRC2:0xffffcf78, size:2944
+[14:11:39:597]: @@@@ local 0 @@@@ [1] config exited, ret: 2
+
+[14:11:39:637]: @@@@ local 1 @@@@ [2] config start
+[14:11:39:770]: @@@@ local 1 @@@@ [2] recv cmds num:46, CRC1:0xffffcf28, size:2944
+[14:11:39:786]: #### mipi 2 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:786]: #### mipi 2 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:786]: #### mipi 2 #### ***2. thread has exited, wait_cn:0
+[14:11:39:786]: #### mipi 2 #### ***3. waiting for deserializer connect
+[14:11:39:791]: #### mipi 2 #### create ret: 0!(cnt 2)
+
+[14:11:39:791]: #### mipi 3 #### [w:3000, h:5760, fps:21.34]
+[14:11:39:791]: #### mipi 3 #### ***1. waiting for thread exit, fd: -1
+[14:11:39:791]: #### mipi 3 #### ***2. thread has exited, wait_cn:0
+[14:11:39:791]: #### mipi 3 #### ***3. waiting for deserializer connect
+[14:11:39:796]: #### mipi 3 #### create ret: 0!(cnt 3)
+
+[14:11:39:877]: @@@@ local 1 @@@@ [2] end ***cnt:40** T:107 ms, CRC2:0xffffcf28, size:2944
+[14:11:39:877]: @@@@ local 1 @@@@ [2] config exited, ret: 2
+
+[14:11:40:810]: @@@@ remote 0 @@@@ [3] config start
+[14:11:40:944]: @@@@ remote 0 @@@@ [3] recv cmds num:13121, CRC1:0xff94972c, size:839744
+[14:11:41:462]: Unknown cmd 4!
+[14:11:43:106]: @@@@ remote 0 @@@@ [3] end ***cnt:717** T:2163 ms, CRC2:0xff94972c, size:839744
+[14:11:43:106]: @@@@ remote 0 @@@@ [3] config exited, ret: 2
+
+[14:11:43:106]: #### mipi 0 #### ***4. deserializer connected, fd: -1
+[14:11:43:106]: mipi 0, w:3000, h:5760, lanes 4, lanespeed 2000
+[14:11:43:107]: #### mipi 0 #### ***5. fd: 26 CONNECTED, buffer num: 8
+[14:11:43:108]: #### mipi 0.0 #### start, state: STREAM
+[14:11:43:108]: #### mipi 0 #### ***6. pthread_create circular_buffer, ret: 0
+[14:11:43:108]: #### usb 0.0 ####, state: STREAM
+[14:11:43:108]: #### mipi 0 #### ***7. pthread_create cbuff_to_usb, ret:0
+[14:11:43:865]: @@@@ remote 1 @@@@ [4] config start
+[14:11:44:006]: @@@@ remote 1 @@@@ [4] recv cmds num:13059, CRC1:0xff94afd4, size:835776
+[14:11:44:109]: $$$$ cam_reader $$$$ start camera_id:0, status: 2
+[14:11:45:319]: @@@@ remote 1 @@@@ [4] end ***cnt:673** T:1313 ms, CRC2:0xff94afd4, size:835776
+[14:11:45:320]: @@@@ remote 1 @@@@ [4] config exited, ret: 2
+
+[14:11:45:320]: #### mipi 1 #### ***4. deserializer connected, fd: -1
+[14:11:45:320]: mipi 2, w:3000, h:5760, lanes 4, lanespeed 2000
+[14:11:45:320]: #### mipi 1 #### ***5. fd: 27 CONNECTED, buffer num: 8
+[14:11:45:321]: #### mipi 1.0 #### start, state: STREAM
+[14:11:45:321]: #### mipi 1 #### ***6. pthread_create circular_buffer, ret: 0
+[14:11:45:321]: #### usb 1.0 ####, state: STREAM
+[14:11:45:321]: #### mipi 1 #### ***7. pthread_create cbuff_to_usb, ret:0
+[14:11:45:653]: des 0, pipe Y 0x11a 0x62
+[14:11:45:653]: des 0, pipe Z 0x12c 0x62
+[14:11:45:653]: des 0, CSI EN 0x313 0x0
+[14:11:45:653]: 
+[14:11:45:653]: *****************port_0**************
+[14:11:45:653]: MIPI_0 PH:     0
+[14:11:45:653]: MIPI_0 WIDTH0: 1770
+[14:11:45:653]: MIPI_0 LSYNC:  0
+[14:11:45:653]: MIPI_0 FSYNC:  0
+[14:11:45:653]: MIPI_0 DATA:   0
+[14:11:45:653]: MIPI_0 CRC:    0
+[14:11:45:653]: MIPI_0 FIFO:   0
+[14:11:45:653]: MIPI_0 WC:     0
+[14:11:45:653]: MIPI_0 ECC:    0
+[14:11:45:653]: ************(error_cnt:0)************
+
+[14:11:45:883]: @@@@ remote 2 @@@@ [5] config start
+[14:11:46:018]: @@@@ remote 2 @@@@ [5] recv cmds num:13121, CRC1:0xff9430f6, size:839744
+[14:11:46:322]: $$$$ cam_reader $$$$ start camera_id:1, status: 2
+[14:11:46:537]: Unknown cmd 4!
+[14:11:47:349]: des 0, pipe Y 0x11a 0x62
+[14:11:47:349]: des 0, pipe Z 0x12c 0x62
+[14:11:47:349]: des 0, CSI EN 0x313 0x0
+[14:11:47:349]: 
+[14:11:47:349]: *****************port_1**************
+[14:11:47:349]: MIPI_2 PH:     0
+[14:11:47:349]: MIPI_2 WIDTH0: 1770
+[14:11:47:349]: MIPI_2 LSYNC:  0
+[14:11:47:349]: MIPI_2 FSYNC:  0
+[14:11:47:349]: MIPI_2 DATA:   0
+[14:11:47:349]: MIPI_2 CRC:    0
+[14:11:47:349]: MIPI_2 FIFO:   0
+[14:11:47:349]: MIPI_2 WC:     0
+[14:11:47:349]: MIPI_2 ECC:    0
+[14:11:47:349]: ************(error_cnt:0)************
+
+[14:11:48:173]: @@@@ remote 2 @@@@ [5] end ***cnt:717** T:2155 ms, CRC2:0xff9430f6, size:839744
+[14:11:48:174]: @@@@ remote 2 @@@@ [5] config exited, ret: 2
+
+[14:11:48:174]: #### mipi 2 #### ***4. deserializer connected, fd: -1
+[14:11:48:174]: mipi 4, w:3000, h:5760, lanes 4, lanespeed 2000
+[14:11:48:174]: #### mipi 2 #### ***5. fd: 28 CONNECTED, buffer num: 8
+[14:11:48:175]: #### mipi 2.0 #### start, state: STREAM
+[14:11:48:175]: #### mipi 2 #### ***6. pthread_create circular_buffer, ret: 0
+[14:11:48:175]: #### usb 2.0 ####, state: STREAM
+[14:11:48:175]: #### mipi 2 #### ***7. pthread_create cbuff_to_usb, ret:0
+[14:11:48:766]: @@@@ remote 3 @@@@ [6] config start
+[14:11:48:898]: @@@@ remote 3 @@@@ [6] recv cmds num:13059, CRC1:0xff9449f6, size:835776
+[14:11:49:176]: $$$$ cam_reader $$$$ start camera_id:2, status: 2
+[14:11:50:211]: @@@@ remote 3 @@@@ [6] end ***cnt:673** T:1314 ms, CRC2:0xff9449f6, size:835776
+[14:11:50:212]: @@@@ remote 3 @@@@ [6] config exited, ret: 2
+
+[14:11:50:212]: #### mipi 3 #### ***4. deserializer connected, fd: -1
+[14:11:50:212]: mipi 6, w:3000, h:5760, lanes 4, lanespeed 2000
+[14:11:50:212]: #### mipi 3 #### ***5. fd: 29 CONNECTED, buffer num: 8
+[14:11:50:213]: #### mipi 3.0 #### start, state: STREAM
+[14:11:50:213]: #### mipi 3 #### ***6. pthread_create circular_buffer, ret: 0
+[14:11:50:213]: #### usb 3.0 ####, state: STREAM
+[14:11:50:213]: #### mipi 3 #### ***7. pthread_create cbuff_to_usb, ret:0
+[14:11:50:718]: des 1, pipe Y 0x11a 0x62
+[14:11:50:718]: des 1, pipe Z 0x12c 0x62
+[14:11:50:718]: des 1, CSI EN 0x313 0x0
+[14:11:50:718]: 
+[14:11:50:718]: *****************port_2**************
+[14:11:50:718]: MIPI_4 PH:     0
+[14:11:50:718]: MIPI_4 WIDTH0: 1770
+[14:11:50:718]: MIPI_4 LSYNC:  0
+[14:11:50:718]: MIPI_4 FSYNC:  0
+[14:11:50:718]: MIPI_4 DATA:   0
+[14:11:50:718]: MIPI_4 CRC:    0
+[14:11:50:718]: MIPI_4 FIFO:   0
+[14:11:50:719]: MIPI_4 WC:     0
+[14:11:50:719]: MIPI_4 ECC:    0
+[14:11:50:719]: ************(error_cnt:0)************
+
+[14:11:50:778]: VIDEO_CTRL_RAW_OUT : cam 0 RAW_OUT_CONTINUOUS_FRMAE, fps:-1.000000, scaler:1
+[14:11:50:885]: ##frame_check   short_timer, long_timer 45 48, fps:21.340000, fps_acc:0.010000
+
+[14:11:50:887]: ##frame_check   short_timer, long_timer 45 48, fps:21.340000, fps_acc:0.010000
+
+[14:11:50:894]: ##frame_check   short_timer, long_timer 45 48, fps:21.340000, fps_acc:0.010000
+
+[14:11:50:909]: ##frame_check   short_timer, long_timer 45 48, fps:21.340000, fps_acc:0.010000
+
+[14:11:51:214]: $$$$ cam_reader $$$$ start camera_id:3, status: 2
+[14:11:52:214]: des 1, pipe Y 0x11a 0x62
+[14:11:52:214]: des 1, pipe Z 0x12c 0x62
+[14:11:52:215]: des 1, CSI EN 0x313 0x2
+[14:11:52:215]: 
+[14:11:52:215]: *****************port_3**************
+[14:11:52:215]: MIPI_6 PH:     2c11ac3b
+[14:11:52:215]: MIPI_6 WIDTH0: 1770
+[14:11:52:215]: MIPI_6 LSYNC:  0
+[14:11:52:215]: MIPI_6 FSYNC:  1
+[14:11:52:215]: MIPI_6 DATA:   0
+[14:11:52:215]: MIPI_6 CRC:    0
+[14:11:52:215]: MIPI_6 FIFO:   0
+[14:11:52:215]: MIPI_6 WC:     0
+[14:11:52:215]: MIPI_6 ECC:    0
+[14:11:52:215]: ************(error_cnt:0)************
+
+[14:12:17:591]: VIDEO_CTRL_RAW_OUT : cam 0 RAW_OUT_DISABLE, fps:0.000000, scaler:0
+[14:12:17:617]: VIDEO_CTRL_RAW_OUT : cam 1 RAW_OUT_CONTINUOUS_FRMAE, fps:-1.000000, scaler:1

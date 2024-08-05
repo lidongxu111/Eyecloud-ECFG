@@ -1,0 +1,60 @@
+{
+	"voltage": 16000,
+	"i2c-map": {
+		"slave0": {
+			"alias": "ser_96793",
+			"physical-addr": [
+				"0x40"
+			],
+			"virtual-addr": [
+				"0xFF",
+				"0xFF"
+			],
+			"type": "16_8"
+		},
+		"slave1": {
+			"alias": "sen",
+			"physical-addr": [
+				"0x1a"
+			],
+			"virtual-addr": [
+				"0xFF",
+				"0xFF"
+			],
+			"type": "16_8"
+		},
+		"slave2": {
+			"alias": "ser_9295",
+			"physical-addr": [
+				"0x62"
+			],
+			"virtual-addr": [
+				"0xFF",
+				"0xFF"
+			],
+			"type": "16_8"
+		}
+	},
+	"MIPI-DPHY": {
+		"RX0": {
+			"enabled": 1,
+			"width": 3000,
+			"height": 5760,
+			"fps": 21.34,
+			"bit_depth": 12,
+			"nlane": 4,
+			"lane_speed": 2000,
+			"unpacked": 1,
+			"buffer_num": 6,
+			"vc_num": 1,
+			"lsc": "0x10",
+			"Bayer" : "RGGB",
+			"port": [
+				-1
+			]
+		}
+	},
+	"program": [
+
+	]
+}

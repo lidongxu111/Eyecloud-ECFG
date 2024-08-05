@@ -1,0 +1,2 @@
+[19:00:16] :[ERROR] - The Connected Device Type Is Different From The Input Device Type
+[19:00:16] :[ERROR] - No device found!
